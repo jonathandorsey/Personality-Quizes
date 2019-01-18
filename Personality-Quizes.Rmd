@@ -1,0 +1,19 @@
+---
+title: "Personality Quizes"
+author: "Jonathan Dorsey"
+date: "January 18, 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+library(tidyverse)
+
+personality <- read_csv("Bren 2020 personality tests - Sheet1 (2).csv")
+
+```
+
