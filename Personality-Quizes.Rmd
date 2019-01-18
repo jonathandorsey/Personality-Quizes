@@ -15,5 +15,9 @@ library(tidyverse)
 
 personality <- read_csv("Bren 2020 personality tests - Sheet1 (2).csv")
 
+personality_df <- personality %>%
+  select(Name, `Hogwarts House`, `Pottermore Patronus`)
+
+
 ```
 
